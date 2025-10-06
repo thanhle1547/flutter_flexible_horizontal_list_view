@@ -1,0 +1,20 @@
+name: horizontal_list_view
+description: "A horizontal ListView that doesn't require a fixed height"
+version: 0.1.0
+repository: https://github.com/thanhle1547/flutter_horizontal_list_view
+topics:
+  - list-view
+  - listview
+
+environment:
+  sdk: ^3.1.0
+  flutter: ">=3.13.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.2
