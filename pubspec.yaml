@@ -1,6 +1,6 @@
 name: flexible_horizontal_list_view
 description: "A horizontal ListView that doesn't require a fixed height"
-version: 0.1.1
+version: 0.1.2
 repository: https://github.com/thanhle1547/flutter_horizontal_list_view
 screenshots:
   - description: A horizontal scrollable list showing the use of the `.separated` constructor

@@ -1,3 +1,7 @@
+## 0.1.2
+
+* Fixed images in README.md not displaying.
+
 ## 0.1.1
 
 * Add `screenshots` field to `pubspec.yaml`.
