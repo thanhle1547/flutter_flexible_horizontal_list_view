@@ -50,7 +50,7 @@ Specifying an [prototypeItem](https://pub.dev/documentation/flexible_horizontal_
 
 This example uses the default constructor for `HorizontalListView` which takes an explicit `List<Widget>` of children. This `HorizontalListView`'s children are made up of [Container](https://api.flutter.dev/flutter/widgets/Container-class.html)s with [Text](https://api.flutter.dev/flutter/widgets/Text-class.html).
 
-![](https://github.com/thanhle1547/flutter_flexible_horizontal_list_view/blob/main/screenshots/default_constructor.gif)
+![](https://github.com/thanhle1547/flutter_flexible_horizontal_list_view/blob/main/screenshots/default_constructor.gif?raw=true)
 
 ```dart
 HorizontalListView(
@@ -120,7 +120,7 @@ Widget build(BuildContext context) {
 
 This example continues to build from our the previous ones, creating a similar list using `HorizontalListView.separated`. Here, a [SizedBox](https://api.flutter.dev/flutter/widgets/SizedBox-class.html) is used as a separator.
 
-![](https://github.com/thanhle1547/flutter_flexible_horizontal_list_view/blob/main/screenshots/seperated_constructor.gif)
+![](https://github.com/thanhle1547/flutter_flexible_horizontal_list_view/blob/main/screenshots/seperated_constructor.gif?raw=true)
 
 ```dart
 final List<String> entries = <String>['A', 'B', 'C', 'D'];
