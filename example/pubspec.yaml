@@ -31,7 +31,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  horizontal_list_view:
+  flexible_horizontal_list_view:
     path: ../
 
 dev_dependencies:

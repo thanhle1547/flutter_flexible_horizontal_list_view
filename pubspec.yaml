@@ -1,4 +1,4 @@
-name: horizontal_list_view
+name: flexible_horizontal_list_view
 description: "A horizontal ListView that doesn't require a fixed height"
 version: 0.1.0
 repository: https://github.com/thanhle1547/flutter_horizontal_list_view

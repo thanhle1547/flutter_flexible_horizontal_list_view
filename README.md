@@ -1,7 +1,7 @@
-# horizontal_list_view
+# flexible_horizontal_list_view
 
-[![Version](https://img.shields.io/pub/v/horizontal_list_view?include_prereleases)](https://pub.dartlang.org/packages/horizontal_list_view)
-[![Pub Points](https://img.shields.io/pub/points/horizontal_list_view)](https://pub.dev/packages/horizontal_list_view/score)
+[![Version](https://img.shields.io/pub/v/flexible_horizontal_list_view?include_prereleases)](https://pub.dartlang.org/packages/flexible_horizontal_list_view)
+[![Pub Points](https://img.shields.io/pub/points/flexible_horizontal_list_view)](https://pub.dev/packages/flexible_horizontal_list_view/score)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 A horizontal ListView that doesn't require a fixed height.
@@ -42,11 +42,11 @@ Like [ListView](https://api.flutter.dev/flutter/widgets/ListView-class.html), th
 
 To control the initial scroll offset of the scroll view, provide a [controller](https://api.flutter.dev/flutter/widgets/ScrollView/controller.html) with its [ScrollController.initialScrollOffset](https://api.flutter.dev/flutter/widgets/ScrollController/initialScrollOffset.html) property set.
 
-By default, `HorizontalListView` will automatically pad the list's scrollable extremities to avoid partial obstructions indicated by [MediaQuery](https://api.flutter.dev/flutter/widgets/MediaQuery-class.html)'s padding. To avoid this behavior, override with a zero [padding](https://pub.dev/documentation/horizontal_list_view/latest/horizontal_list_view/HorizontalListView/padding.html) property.
+By default, `HorizontalListView` will automatically pad the list's scrollable extremities to avoid partial obstructions indicated by [MediaQuery](https://api.flutter.dev/flutter/widgets/MediaQuery-class.html)'s padding. To avoid this behavior, override with a zero [padding](https://pub.dev/documentation/flexible_horizontal_list_view/latest/flexible_horizontal_list_view/HorizontalListView/padding.html) property.
 
-If non-null, the [prototypeItem](https://pub.dev/documentation/horizontal_list_view/latest/horizontal_list_view/HorizontalListView/prototypeItem.html) forces the children to have the same size as the given widget in the scroll direction.
+If non-null, the [prototypeItem](https://pub.dev/documentation/flexible_horizontal_list_view/latest/flexible_horizontal_list_view/HorizontalListView/prototypeItem.html) forces the children to have the same size as the given widget in the scroll direction.
 
-Specifying an [prototypeItem](https://pub.dev/documentation/horizontal_list_view/latest/horizontal_list_view/HorizontalListView/prototypeItem.html) is more efficient than letting the children determine their own size because the scrolling machinery can make use of the foreknowledge of the children's size to save work, for example when the scroll position changes drastically.
+Specifying an [prototypeItem](https://pub.dev/documentation/flexible_horizontal_list_view/latest/flexible_horizontal_list_view/HorizontalListView/prototypeItem.html) is more efficient than letting the children determine their own size because the scrolling machinery can make use of the foreknowledge of the children's size to save work, for example when the scroll position changes drastically.
 
 This example uses the default constructor for `HorizontalListView` which takes an explicit `List<Widget>` of children. This `HorizontalListView`'s children are made up of [Container](https://api.flutter.dev/flutter/widgets/Container-class.html)s with [Text](https://api.flutter.dev/flutter/widgets/Text-class.html).
 

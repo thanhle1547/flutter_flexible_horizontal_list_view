@@ -1,7 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:horizontal_list_view/horizontal_list_view.dart';
+import 'package:flexible_horizontal_list_view/flexible_horizontal_list_view.dart';
 
 import 'widgets.dart';
 
@@ -13,7 +13,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'horizontal_list_view Package Demo',
+      title: 'flexible_horizontal_list_view Package Demo',
       debugShowCheckedModeBanner: false,
       home: const DemoPage(),
     );
@@ -49,11 +49,12 @@ class _DemoPageState extends State<DemoPage> {
           TextSpan(
             children: [
               TextSpan(
-                text: 'horizontal_list_view',
-                style: TextStyle(fontFamily: 'monospace', fontSize: 20),
+                text: 'flexible_horizontal_list_view',
+                style: TextStyle(fontFamily: 'monospace'),
               ),
               TextSpan(text: ' Demo'),
             ],
+            style: TextStyle(fontSize: 15),
           ),
         ),
         actions: [
