@@ -23,7 +23,7 @@ packages:
       path: ".."
       relative: true
     source: path
-    version: "0.1.2"
+    version: "0.2.0"
   flutter:
     dependency: "direct main"
     description: flutter
@@ -76,4 +76,4 @@ packages:
     version: "2.2.0"
 sdks:
   dart: ">=3.9.2 <4.0.0"
-  flutter: ">=3.13.0"
+  flutter: ">=3.24.0"
